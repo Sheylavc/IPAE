@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E354FAA1DB91F6400FDC420 /* SugerenciasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E354FA91DB91F6400FDC420 /* SugerenciasViewController.swift */; };
+		1E51C32D1DAC38CB0062C54A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E51C32C1DAC38CB0062C54A /* MenuViewController.swift */; };
+		1E51C32F1DAC3D830062C54A /* SugerenciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E51C32E1DAC3D830062C54A /* SugerenciaViewController.swift */; };
+		1E51C3311DAC43050062C54A /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E51C3301DAC43050062C54A /* MenuCell.swift */; };
+		1E6318391D9D700900D15FF7 /* TerminosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318381D9D700800D15FF7 /* TerminosViewController.swift */; };
+		1E63183B1D9D73B000D15FF7 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63183A1D9D73B000D15FF7 /* Reachability.swift */; };
+		1E63183D1D9D73FF00D15FF7 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63183C1D9D73FF00D15FF7 /* AlertHelper.swift */; };
+		1E63183F1D9D77AE00D15FF7 /* ModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63183E1D9D77AE00D15FF7 /* ModelHelper.swift */; };
+		1E63184A1D9D780900D15FF7 /* SubCategoria+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318401D9D780900D15FF7 /* SubCategoria+CoreDataProperties.swift */; };
+		1E63184B1D9D780900D15FF7 /* SubCategoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318411D9D780900D15FF7 /* SubCategoria.swift */; };
+		1E63184C1D9D780900D15FF7 /* Categoria+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318421D9D780900D15FF7 /* Categoria+CoreDataProperties.swift */; };
+		1E63184D1D9D780900D15FF7 /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318431D9D780900D15FF7 /* Categoria.swift */; };
+		1E63184E1D9D780900D15FF7 /* Pregunta+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318441D9D780900D15FF7 /* Pregunta+CoreDataProperties.swift */; };
+		1E63184F1D9D780900D15FF7 /* Pregunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318451D9D780900D15FF7 /* Pregunta.swift */; };
+		1E6318501D9D780900D15FF7 /* Respuesta+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318461D9D780900D15FF7 /* Respuesta+CoreDataProperties.swift */; };
+		1E6318511D9D780900D15FF7 /* Respuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318471D9D780900D15FF7 /* Respuesta.swift */; };
+		1E6318521D9D780900D15FF7 /* Test+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318481D9D780900D15FF7 /* Test+CoreDataProperties.swift */; };
+		1E6318531D9D780900D15FF7 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318491D9D780900D15FF7 /* Test.swift */; };
+		1E6318581D9D817800D15FF7 /* Area+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318541D9D817800D15FF7 /* Area+CoreDataProperties.swift */; };
+		1E6318591D9D817800D15FF7 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318551D9D817800D15FF7 /* Area.swift */; };
+		1E6318621D9D825300D15FF7 /* Terminos+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318601D9D825300D15FF7 /* Terminos+CoreDataProperties.swift */; };
+		1E6318631D9D825300D15FF7 /* Terminos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318611D9D825300D15FF7 /* Terminos.swift */; };
+		1E6318671D9DBB2900D15FF7 /* SubCategoriaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318661D9DBB2900D15FF7 /* SubCategoriaCell.swift */; };
+		1E6318691D9EC97E00D15FF7 /* PreguntasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6318681D9EC97E00D15FF7 /* PreguntasViewController.swift */; };
+		1E63186B1D9F037B00D15FF7 /* DataURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63186A1D9F037B00D15FF7 /* DataURL.swift */; };
+		1E6C84971DAD850900EFE408 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C84961DAD850900EFE408 /* InfoController.swift */; };
+		1E6FCD0F1DA3F78800E75DDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E6FCD0E1DA3F78800E75DDB /* GoogleService-Info.plist */; };
+		1E80D3171D996A18001BF6F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E80D3161D996A18001BF6F8 /* AppDelegate.swift */; };
+		1E80D31C1D996A18001BF6F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E80D31A1D996A18001BF6F8 /* Main.storyboard */; };
+		1E80D31F1D996A18001BF6F8 /* diagnostico_empresarial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E80D31D1D996A18001BF6F8 /* diagnostico_empresarial.xcdatamodeld */; };
+		1E80D3211D996A18001BF6F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E80D3201D996A18001BF6F8 /* Assets.xcassets */; };
+		1E80D3241D996A18001BF6F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E80D3221D996A18001BF6F8 /* LaunchScreen.storyboard */; };
+		1E8837011D9AFEC700FF40B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8837001D9AFEC600FF40B5 /* MainViewController.swift */; };
+		1E8837101D9C2E8500FF40B5 /* ListadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88370F1D9C2E8500FF40B5 /* ListadoViewController.swift */; };
+		1E8837121D9C7B2000FF40B5 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8837111D9C7B2000FF40B5 /* Checkbox.swift */; };
+		1EEC9EE91DAC2DA200841377 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEC9EE81DAC2DA200841377 /* SWRevealViewController.m */; };
+		1EFCBE2B1DA5BF3600197E21 /* ListadoIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCBE2A1DA5BF3600197E21 /* ListadoIViewController.swift */; };
+		1EFCBE2D1DA5C3E800197E21 /* SubCategoriaICell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCBE2C1DA5C3E800197E21 /* SubCategoriaICell.swift */; };
+		1EFCBE2F1DA5CBCE00197E21 /* PreguntasIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCBE2E1DA5CBCE00197E21 /* PreguntasIViewController.swift */; };
+		1EFCBE311DA6EA4600197E21 /* FormularioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCBE301DA6EA4500197E21 /* FormularioViewController.swift */; };
+		1EFCBE331DA6F57400197E21 /* FormularioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCBE321DA6F57300197E21 /* FormularioCell.swift */; };
+		1EFCBE351DA7059700197E21 /* FormularioTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCBE341DA7059600197E21 /* FormularioTCell.swift */; };
+		1EFCBE371DA708A100197E21 /* FormularioBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCBE361DA708A100197E21 /* FormularioBCell.swift */; };
+		DD29F6E1F9AA748FBE68AFEA /* Pods_DiagnosticoIPAE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48F7D522BC8DD0137D49171 /* Pods_DiagnosticoIPAE.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E354FA91DB91F6400FDC420 /* SugerenciasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugerenciasViewController.swift; sourceTree = "<group>"; };
+		1E51C32C1DAC38CB0062C54A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1E51C32E1DAC3D830062C54A /* SugerenciaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugerenciaViewController.swift; sourceTree = "<group>"; };
+		1E51C3301DAC43050062C54A /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		1E6318381D9D700800D15FF7 /* TerminosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerminosViewController.swift; sourceTree = "<group>"; };
+		1E63183A1D9D73B000D15FF7 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1E63183C1D9D73FF00D15FF7 /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		1E63183E1D9D77AE00D15FF7 /* ModelHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelHelper.swift; sourceTree = "<group>"; };
+		1E6318401D9D780900D15FF7 /* SubCategoria+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SubCategoria+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E6318411D9D780900D15FF7 /* SubCategoria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoria.swift; sourceTree = "<group>"; };
+		1E6318421D9D780900D15FF7 /* Categoria+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Categoria+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E6318431D9D780900D15FF7 /* Categoria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		1E6318441D9D780900D15FF7 /* Pregunta+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pregunta+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E6318451D9D780900D15FF7 /* Pregunta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta.swift; sourceTree = "<group>"; };
+		1E6318461D9D780900D15FF7 /* Respuesta+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Respuesta+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E6318471D9D780900D15FF7 /* Respuesta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Respuesta.swift; sourceTree = "<group>"; };
+		1E6318481D9D780900D15FF7 /* Test+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Test+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E6318491D9D780900D15FF7 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		1E6318541D9D817800D15FF7 /* Area+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Area+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E6318551D9D817800D15FF7 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		1E6318601D9D825300D15FF7 /* Terminos+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Terminos+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E6318611D9D825300D15FF7 /* Terminos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Terminos.swift; sourceTree = "<group>"; };
+		1E6318661D9DBB2900D15FF7 /* SubCategoriaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoriaCell.swift; sourceTree = "<group>"; };
+		1E6318681D9EC97E00D15FF7 /* PreguntasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreguntasViewController.swift; sourceTree = "<group>"; };
+		1E63186A1D9F037B00D15FF7 /* DataURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataURL.swift; sourceTree = "<group>"; };
+		1E6C84961DAD850900EFE408 /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		1E6FCD0E1DA3F78800E75DDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E80D3131D996A18001BF6F8 /* DIGE IPAE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DIGE IPAE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E80D3161D996A18001BF6F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E80D31B1D996A18001BF6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E80D31E1D996A18001BF6F8 /* diagnostico_empresarial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = diagnostico_empresarial.xcdatamodel; sourceTree = "<group>"; };
+		1E80D3201D996A18001BF6F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E80D3231D996A18001BF6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E80D3251D996A19001BF6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8837001D9AFEC600FF40B5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1E88370F1D9C2E8500FF40B5 /* ListadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListadoViewController.swift; sourceTree = "<group>"; };
+		1E8837111D9C7B2000FF40B5 /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		1EEC9EE61DAC2DA000841377 /* DIGE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DIGE-Bridging-Header.h"; sourceTree = "<group>"; };
+		1EEC9EE71DAC2DA200841377 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		1EEC9EE81DAC2DA200841377 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		1EFCBE2A1DA5BF3600197E21 /* ListadoIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListadoIViewController.swift; sourceTree = "<group>"; };
+		1EFCBE2C1DA5C3E800197E21 /* SubCategoriaICell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoriaICell.swift; sourceTree = "<group>"; };
+		1EFCBE2E1DA5CBCE00197E21 /* PreguntasIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreguntasIViewController.swift; sourceTree = "<group>"; };
+		1EFCBE301DA6EA4500197E21 /* FormularioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormularioViewController.swift; sourceTree = "<group>"; };
+		1EFCBE321DA6F57300197E21 /* FormularioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormularioCell.swift; sourceTree = "<group>"; };
+		1EFCBE341DA7059600197E21 /* FormularioTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormularioTCell.swift; sourceTree = "<group>"; };
+		1EFCBE361DA708A100197E21 /* FormularioBCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormularioBCell.swift; sourceTree = "<group>"; };
+		4C70F819380081E13713E67D /* Pods-DiagnosticoIPAE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiagnosticoIPAE.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiagnosticoIPAE/Pods-DiagnosticoIPAE.release.xcconfig"; sourceTree = "<group>"; };
+		B48F7D522BC8DD0137D49171 /* Pods_DiagnosticoIPAE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiagnosticoIPAE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75C3475046E6931EBA7E364 /* Pods-DiagnosticoIPAE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiagnosticoIPAE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiagnosticoIPAE/Pods-DiagnosticoIPAE.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E80D3101D996A18001BF6F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD29F6E1F9AA748FBE68AFEA /* Pods_DiagnosticoIPAE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E80D30A1D996A17001BF6F8 = {
+			isa = PBXGroup;
+			children = (
+				1E63186A1D9F037B00D15FF7 /* DataURL.swift */,
+				1E6318601D9D825300D15FF7 /* Terminos+CoreDataProperties.swift */,
+				1E6318611D9D825300D15FF7 /* Terminos.swift */,
+				1E6318541D9D817800D15FF7 /* Area+CoreDataProperties.swift */,
+				1E6318551D9D817800D15FF7 /* Area.swift */,
+				1E6318401D9D780900D15FF7 /* SubCategoria+CoreDataProperties.swift */,
+				1E6318411D9D780900D15FF7 /* SubCategoria.swift */,
+				1E6318421D9D780900D15FF7 /* Categoria+CoreDataProperties.swift */,
+				1E6318431D9D780900D15FF7 /* Categoria.swift */,
+				1E6318441D9D780900D15FF7 /* Pregunta+CoreDataProperties.swift */,
+				1E6318451D9D780900D15FF7 /* Pregunta.swift */,
+				1E6318461D9D780900D15FF7 /* Respuesta+CoreDataProperties.swift */,
+				1E6318471D9D780900D15FF7 /* Respuesta.swift */,
+				1E6318481D9D780900D15FF7 /* Test+CoreDataProperties.swift */,
+				1E6318491D9D780900D15FF7 /* Test.swift */,
+				1E63183E1D9D77AE00D15FF7 /* ModelHelper.swift */,
+				1E63183C1D9D73FF00D15FF7 /* AlertHelper.swift */,
+				1E63183A1D9D73B000D15FF7 /* Reachability.swift */,
+				1E80D3151D996A18001BF6F8 /* DIGE */,
+				1E80D3141D996A18001BF6F8 /* Products */,
+				2F4368B6E93BEDA753AEFC49 /* Pods */,
+				6CD226FD0B65AA7CA95AD7DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E80D3141D996A18001BF6F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E80D3131D996A18001BF6F8 /* DIGE IPAE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E80D3151D996A18001BF6F8 /* DIGE */ = {
+			isa = PBXGroup;
+			children = (
+				1EEC9EE71DAC2DA200841377 /* SWRevealViewController.h */,
+				1EEC9EE81DAC2DA200841377 /* SWRevealViewController.m */,
+				1E6FCD0E1DA3F78800E75DDB /* GoogleService-Info.plist */,
+				1E80D3161D996A18001BF6F8 /* AppDelegate.swift */,
+				1E80D31A1D996A18001BF6F8 /* Main.storyboard */,
+				1E80D3201D996A18001BF6F8 /* Assets.xcassets */,
+				1E80D3221D996A18001BF6F8 /* LaunchScreen.storyboard */,
+				1E80D3251D996A19001BF6F8 /* Info.plist */,
+				1E80D31D1D996A18001BF6F8 /* diagnostico_empresarial.xcdatamodeld */,
+				1E8837001D9AFEC600FF40B5 /* MainViewController.swift */,
+				1E88370F1D9C2E8500FF40B5 /* ListadoViewController.swift */,
+				1E8837111D9C7B2000FF40B5 /* Checkbox.swift */,
+				1E6318381D9D700800D15FF7 /* TerminosViewController.swift */,
+				1E6318661D9DBB2900D15FF7 /* SubCategoriaCell.swift */,
+				1E6318681D9EC97E00D15FF7 /* PreguntasViewController.swift */,
+				1EFCBE2A1DA5BF3600197E21 /* ListadoIViewController.swift */,
+				1EFCBE2C1DA5C3E800197E21 /* SubCategoriaICell.swift */,
+				1EFCBE2E1DA5CBCE00197E21 /* PreguntasIViewController.swift */,
+				1EFCBE301DA6EA4500197E21 /* FormularioViewController.swift */,
+				1EFCBE321DA6F57300197E21 /* FormularioCell.swift */,
+				1EFCBE341DA7059600197E21 /* FormularioTCell.swift */,
+				1EFCBE361DA708A100197E21 /* FormularioBCell.swift */,
+				1EEC9EE61DAC2DA000841377 /* DIGE-Bridging-Header.h */,
+				1E51C32C1DAC38CB0062C54A /* MenuViewController.swift */,
+				1E51C32E1DAC3D830062C54A /* SugerenciaViewController.swift */,
+				1E51C3301DAC43050062C54A /* MenuCell.swift */,
+				1E6C84961DAD850900EFE408 /* InfoController.swift */,
+				1E354FA91DB91F6400FDC420 /* SugerenciasViewController.swift */,
+			);
+			name = DIGE;
+			path = "diagnostico-empresarial";
+			sourceTree = "<group>";
+		};
+		2F4368B6E93BEDA753AEFC49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E75C3475046E6931EBA7E364 /* Pods-DiagnosticoIPAE.debug.xcconfig */,
+				4C70F819380081E13713E67D /* Pods-DiagnosticoIPAE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CD226FD0B65AA7CA95AD7DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B48F7D522BC8DD0137D49171 /* Pods_DiagnosticoIPAE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E80D3121D996A18001BF6F8 /* DIGE IPAE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E80D3281D996A19001BF6F8 /* Build configuration list for PBXNativeTarget "DIGE IPAE" */;
+			buildPhases = (
+				C489927B6FFD486501369394 /* [CP] Check Pods Manifest.lock */,
+				1E80D30F1D996A18001BF6F8 /* Sources */,
+				1E80D3101D996A18001BF6F8 /* Frameworks */,
+				1E80D3111D996A18001BF6F8 /* Resources */,
+				467723541659ED485813083B /* [CP] Embed Pods Frameworks */,
+				383AD729ED5858D09BD0D26F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DIGE IPAE";
+			productName = "diagnostico-empresarial";
+			productReference = 1E80D3131D996A18001BF6F8 /* DIGE IPAE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E80D30B1D996A17001BF6F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ipae;
+				TargetAttributes = {
+					1E80D3121D996A18001BF6F8 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H6US4H6N66;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1E80D30E1D996A17001BF6F8 /* Build configuration list for PBXProject "DIGE IPAE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E80D30A1D996A17001BF6F8;
+			productRefGroup = 1E80D3141D996A18001BF6F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E80D3121D996A18001BF6F8 /* DIGE IPAE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E80D3111D996A18001BF6F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E80D3241D996A18001BF6F8 /* LaunchScreen.storyboard in Resources */,
+				1E6FCD0F1DA3F78800E75DDB /* GoogleService-Info.plist in Resources */,
+				1E80D3211D996A18001BF6F8 /* Assets.xcassets in Resources */,
+				1E80D31C1D996A18001BF6F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		383AD729ED5858D09BD0D26F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiagnosticoIPAE/Pods-DiagnosticoIPAE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		467723541659ED485813083B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiagnosticoIPAE/Pods-DiagnosticoIPAE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C489927B6FFD486501369394 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E80D30F1D996A18001BF6F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6318671D9DBB2900D15FF7 /* SubCategoriaCell.swift in Sources */,
+				1EFCBE351DA7059700197E21 /* FormularioTCell.swift in Sources */,
+				1EFCBE371DA708A100197E21 /* FormularioBCell.swift in Sources */,
+				1EFCBE311DA6EA4600197E21 /* FormularioViewController.swift in Sources */,
+				1E80D31F1D996A18001BF6F8 /* diagnostico_empresarial.xcdatamodeld in Sources */,
+				1E63183F1D9D77AE00D15FF7 /* ModelHelper.swift in Sources */,
+				1E8837101D9C2E8500FF40B5 /* ListadoViewController.swift in Sources */,
+				1E6318581D9D817800D15FF7 /* Area+CoreDataProperties.swift in Sources */,
+				1E63184A1D9D780900D15FF7 /* SubCategoria+CoreDataProperties.swift in Sources */,
+				1EFCBE2D1DA5C3E800197E21 /* SubCategoriaICell.swift in Sources */,
+				1E63184C1D9D780900D15FF7 /* Categoria+CoreDataProperties.swift in Sources */,
+				1E6C84971DAD850900EFE408 /* InfoController.swift in Sources */,
+				1EEC9EE91DAC2DA200841377 /* SWRevealViewController.m in Sources */,
+				1E8837121D9C7B2000FF40B5 /* Checkbox.swift in Sources */,
+				1E80D3171D996A18001BF6F8 /* AppDelegate.swift in Sources */,
+				1E354FAA1DB91F6400FDC420 /* SugerenciasViewController.swift in Sources */,
+				1E63184B1D9D780900D15FF7 /* SubCategoria.swift in Sources */,
+				1E6318621D9D825300D15FF7 /* Terminos+CoreDataProperties.swift in Sources */,
+				1E6318631D9D825300D15FF7 /* Terminos.swift in Sources */,
+				1EFCBE331DA6F57400197E21 /* FormularioCell.swift in Sources */,
+				1E51C32F1DAC3D830062C54A /* SugerenciaViewController.swift in Sources */,
+				1E51C3311DAC43050062C54A /* MenuCell.swift in Sources */,
+				1E6318521D9D780900D15FF7 /* Test+CoreDataProperties.swift in Sources */,
+				1E63184D1D9D780900D15FF7 /* Categoria.swift in Sources */,
+				1E6318391D9D700900D15FF7 /* TerminosViewController.swift in Sources */,
+				1E6318501D9D780900D15FF7 /* Respuesta+CoreDataProperties.swift in Sources */,
+				1E63183D1D9D73FF00D15FF7 /* AlertHelper.swift in Sources */,
+				1E63183B1D9D73B000D15FF7 /* Reachability.swift in Sources */,
+				1E8837011D9AFEC700FF40B5 /* MainViewController.swift in Sources */,
+				1E63184E1D9D780900D15FF7 /* Pregunta+CoreDataProperties.swift in Sources */,
+				1E63186B1D9F037B00D15FF7 /* DataURL.swift in Sources */,
+				1E6318531D9D780900D15FF7 /* Test.swift in Sources */,
+				1EFCBE2B1DA5BF3600197E21 /* ListadoIViewController.swift in Sources */,
+				1E6318511D9D780900D15FF7 /* Respuesta.swift in Sources */,
+				1E51C32D1DAC38CB0062C54A /* MenuViewController.swift in Sources */,
+				1E6318591D9D817800D15FF7 /* Area.swift in Sources */,
+				1E6318691D9EC97E00D15FF7 /* PreguntasViewController.swift in Sources */,
+				1EFCBE2F1DA5CBCE00197E21 /* PreguntasIViewController.swift in Sources */,
+				1E63184F1D9D780900D15FF7 /* Pregunta.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E80D31A1D996A18001BF6F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E80D31B1D996A18001BF6F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E80D3221D996A18001BF6F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E80D3231D996A18001BF6F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E80D3261D996A19001BF6F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E80D3271D996A19001BF6F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E80D3291D996A19001BF6F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75C3475046E6931EBA7E364 /* Pods-DiagnosticoIPAE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amadeo Drinot (UH8Y2V8AK8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amadeo Drinot (UH8Y2V8AK8)";
+				INFOPLIST_FILE = "diagnostico-empresarial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipae.DiagnosticoIPAE;
+				PRODUCT_NAME = "DIGE IPAE";
+				PROVISIONING_PROFILE = "e1d4f4c9-afe1-435c-98b0-cfd282cee7ad";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "diagnostico-empresarial/DIGE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1E80D32A1D996A19001BF6F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C70F819380081E13713E67D /* Pods-DiagnosticoIPAE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: INSTITUTO PERUANO DE ACCIO N EMPRESARIAL (H6US4H6N66)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: INSTITUTO PERUANO DE ACCIO N EMPRESARIAL (H6US4H6N66)";
+				INFOPLIST_FILE = "diagnostico-empresarial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipae.DiagnosticoIPAE;
+				PRODUCT_NAME = "DIGE IPAE";
+				PROVISIONING_PROFILE = "e1d4f4c9-afe1-435c-98b0-cfd282cee7ad";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "diagnostico-empresarial/DIGE-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E80D30E1D996A17001BF6F8 /* Build configuration list for PBXProject "DIGE IPAE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E80D3261D996A19001BF6F8 /* Debug */,
+				1E80D3271D996A19001BF6F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E80D3281D996A19001BF6F8 /* Build configuration list for PBXNativeTarget "DIGE IPAE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E80D3291D996A19001BF6F8 /* Debug */,
+				1E80D32A1D996A19001BF6F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E80D31D1D996A18001BF6F8 /* diagnostico_empresarial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E80D31E1D996A18001BF6F8 /* diagnostico_empresarial.xcdatamodel */,
+			);
+			currentVersion = 1E80D31E1D996A18001BF6F8 /* diagnostico_empresarial.xcdatamodel */;
+			path = diagnostico_empresarial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E80D30B1D996A17001BF6F8 /* Project object */;
+}
